@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    justify-self: start;
+    padding: 10px;
+}
+
+.navbar.logo{ 
+    font-size:1.5rem;
+}
+
+.navbar nav a{
+    color:#fff;
+    margin-left: 1rem;
+    padding: 10px;
+    text-decoration: none;
+    font-style: italic;
+
+}
+.navbar nav a:hover{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration:none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 5rem;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/721/832/884/5-star-hotel-room-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.star{
+    background-color: gray;
+}
+.hero h1{
+    font-size: 45px;
+    color: white;
+    background-color: burlywood;
+    border-radius: 15PX;
+    padding: 20px;
+    transition:transform 0.5s ;
+}
+
+.hero p{
+    font-size: 36px;
+    border: 3px solid black;
+    margin-top: 15px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about{
+    white-space: nowrap;
+    text-align: center;
+    width: auto;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about-section{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.about-section p{
+    font-size: 28px;
+    width: 50%;
+    text-align: center;
+}
+
+.about-section img{
+    height: 250px;
+    width: 250px;
+}
+
+.section {
+    padding: 4rem 1rem;
+    text-align: center;
+    
+}
+
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.destination-card {
+    display: flex;
+    flex-direction: row;
+    background-color:burlywood;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 400px;
+    align-items: center;
+    transition: transform 0.3s;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+.offer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 24px
+}
+
+.offer-card {
+    background-color: burlywood;
+    padding: 24px;
+    border: 2px solid black;
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    transition: transform 0.5s;
+}
+
+.offer-card:hover {
+    transform: scale(1.24);
+}
+
+.offer-card .book-now {
+    padding: 5px;
+    background-color: rgb(206, 149, 4);
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 5px;
+    border:2px solid rgb(206,149,4);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.offer-card .book-now:hover {
+   
+    background-color: rgb(254, 217, 116);
+    cursor: pointer;
+    color:rgb(206, 149, 4);
+    border: 2px solid white;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 50px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 1.9s;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.gallery img:hover {
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+}
